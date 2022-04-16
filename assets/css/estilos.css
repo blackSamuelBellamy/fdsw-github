@@ -27,6 +27,13 @@ body {
   color: #373a3c;
 }
 
+.navbar-brand {
+  font-family: 'Inspiration', cursive;
+  font-size: 3rem;
+  letter-spacing: 3px;
+
+}
+
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
