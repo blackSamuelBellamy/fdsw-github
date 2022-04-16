@@ -2,9 +2,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-
+#Hero-section {
+  height: 80vh;
+}
 
 /* Mis trabajos */
+  
 
 #Mis-trabajos .image-top {
   height: 250px;
@@ -37,6 +40,10 @@ body {
   font-size: 2rem;
   letter-spacing: 2px;
   
+}
+
+.carousel-item img {
+  height: 120vh;
 }
 
 
