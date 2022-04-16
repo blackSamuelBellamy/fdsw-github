@@ -16,7 +16,9 @@
         integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Raleway:wght@500&family=Roboto:wght@300&family=Square+Peg&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inspiration&family=Raleway:wght@500&family=Roboto:wght@300&family=Square+Peg&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -48,21 +50,28 @@
     </nav>
 
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
-        <div class="container">
-            <div class="ms-auto col-12 col-md-7 ">
-                <h1 class="display-1 fw-bold my-5">
-                    Comidas del fin <br> del mundo
-                </h1>
-                <p class="my-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
-                    dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
-                    mollitia inventore provident labore voluptatum nemo.
-                </p>
-                <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i.ibb.co/HPfcmzB/a-for-programmers-wallpaper.png" class="d-block w-100" alt="codingWallpaper">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ibb.co/28fJQX6/ZcVzSn.png" class="d-block w-100" alt="secondImage">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.ibb.co/QYpBHx9/abstract-coding-texture-glowing-numbers-binary-code-computing-concept-d-rendering-155016646.jpg" class="d-block w-100" alt="thirdImage">
                 </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
 
